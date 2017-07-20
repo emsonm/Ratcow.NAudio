@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Ratcow.NAudio</id>
+        <version>0.0.1</version>
+        <authors>Ratcow Soft</authors>
+        <iconUrl>https://pbs.twimg.com/profile_images/414756286/ratcowmascot_400x400.PNG</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library of NAudio related classes.</description>
+        <copyright>Ratcow soft (c) 2017</copyright>
+        <tags>NAudio,Audio,Sound</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="NAudio" version="[1.8.0]" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Ratcow.NAudio\bin\Release\Ratcow.NAudio.dll" target="lib\Ratcow.NAudio.dll" />
+        <file src="Ratcow.NAudio\bin\Release\Ratcow.NAudio.pdb" target="lib\Ratcow.NAudio.pdb" />
+    </files>
+</package>
