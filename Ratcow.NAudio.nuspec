@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Ratcow.NAudio</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <authors>Ratcow Soft</authors>
         <iconUrl>https://pbs.twimg.com/profile_images/414756286/ratcowmascot_400x400.PNG</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,7 +11,8 @@
         <tags>NAudio,Audio,Sound</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5.2">
-                <dependency id="NAudio" version="[1.8.0]" />
+                <dependency id="NAudio" version="[1.8.3]" />
+                <dependency id="NAudio.Lame" version="[1.0.6]" />
             </group>
         </dependencies>
     </metadata>

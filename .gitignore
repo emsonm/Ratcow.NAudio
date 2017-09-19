@@ -286,3 +286,5 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+Ratcow.NAudio/libmp3lame.32.dll
+Ratcow.NAudio/libmp3lame.64.dll

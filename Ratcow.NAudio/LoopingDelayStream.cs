@@ -22,7 +22,6 @@ namespace Ratcow.NAudio
     {
         MemoryStream sourceStream;
         readonly TimeSpan delay;
-        readonly int delayLength = 0;
         readonly WaveFormat waveFormat;
         public bool EnableLooping { get; set; }
 
